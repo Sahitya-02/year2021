@@ -45,7 +45,7 @@ p{
 }
 
 .wish{
-  width: 400px;
+  width: auto;
   height: 100px;
   padding-left: 200px;
   position: relative;
