@@ -47,7 +47,7 @@ p{
 .wish{
   width: 400px;
   height: 100px;
-  padding-left: 300px;
+  padding-left: 200px;
   position: relative;
   animation: mymove 6s;
   animation-iteration-count: infinite;
