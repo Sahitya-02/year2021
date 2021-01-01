@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Wishing</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>
+    <div class="imp">
+      <input type="text" id="myText" name="fname" value="" placeholder="Enter your name"><br><br><br>
+      <button  class="sur" onclick="myFunction()">Surprise!</button>
+
+      
+    </div>
+    <div class="wish">
+      <p id="demo"> </p>
+    
+      <script>
+      function myFunction() {
+        var x = document.getElementById("myText").value;
+        document.getElementById("demo").innerHTML ="HAPPY\n"+"  NEW\n"+ " YEAR\n " +x;
+      }
+      </script>
+    </div>
+
+  </body>
+</html>

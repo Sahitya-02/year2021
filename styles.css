@@ -1,0 +1,59 @@
+body{
+  background-image: url('new.jpg');
+  background-size: cover;
+}
+.imp{  
+  width: 350px;  
+  overflow: hidden;  
+  margin: auto;    
+   
+  padding-left: 10px;
+  padding-top: 30px;
+  
+  border-radius: 15px ;  
+    
+} 
+#myText{
+  width: 300px;
+  height: 30px;
+  background-color: brown;
+  color: black;
+
+}
+.sur{
+  background-color: crimson;
+  width: 300px;
+  height: 30px;
+  border-width: 3px;
+  border-color: coral;
+
+}
+.sur:hover{
+  background-color: chocolate;
+}
+p{
+  color: rgb(160, 121, 95);
+  font-size: 100px;  
+  overflow: hidden;  
+  margin: auto;    
+  text-shadow: 10px 10px 20px black;
+  -webkit-text-stroke:4px white;
+  
+  padding-left:10px;
+  padding-top: 300px;
+   
+}
+
+.wish{
+  width: 400px;
+  height: 100px;
+  padding-left: 500px;
+  position: relative;
+  animation: mymove 6s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes mymove {
+  from {top: -500px;}
+  to {top: -200px;}
+}
